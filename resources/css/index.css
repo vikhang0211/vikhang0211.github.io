@@ -1,19 +1,26 @@
-*{
-    font-family: Helvetica;
+body{
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
 }
 h1{
-    background-image: url('../images/pattern.jpeg');
-    font-size: 100px;
-    font-weight: bold;
-    color: khaki;
     text-align: center;
 }
 h2{
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
+    text-align: center;
+    color: rebeccapurple;
+}
+table{
+    border: 2px solid darkorchid;
+    margin: 0 auto;
+    width: 650px;
+}
+td{
+    border-top: 1px solid purple;
+}
+thead{
+    background-color: plum;
 }
 span{
-    font-weight: bold;
-    color: blue;
+    background-color: beige;
+    font-family: monospace;
 }
